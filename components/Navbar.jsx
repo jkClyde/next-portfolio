@@ -82,14 +82,14 @@ const Navbar = () => {
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1">Lama</span>
-          <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
-            .dev
+          <span className="text-white mr-1">Cly</span>
+          <span className="w-6 h-8 rounded bg-white text-black flex items-center justify-center">
+            De
           </span>
         </Link>
       </div>
       {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 ">
+      <div className="hidden md:flex gap-4 w-1/3 justify-end">
         <Link href="/">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
